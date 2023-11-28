@@ -28,6 +28,8 @@ function calculateAndDisplay() {
         
         let resultsDiv = document.querySelector('.results');
         resultsDiv.innerHTML = '<p class="error-message">Por favor, insira um número válido.</p>';
+
+        
     }
 }
 

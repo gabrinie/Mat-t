@@ -124,13 +124,15 @@ section {
     padding: 20px;
     height: fit-content;
     border-radius: 22px;
-    background-color: rgba(255, 255, 255, 0.09);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.192);
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
     font-size: 22px;
-    color: #ffffff;
 }
-
+.fun-left span, h1, em{
+    font-weight: 700;
+    color: #000000;
+}
 .fun-left h1 {
     font-weight: 600;
     margin-bottom: 10px;
@@ -145,6 +147,9 @@ section {
 }
 
 .imagens img {
+    width: 30vw;
+}
+#graphpic  {
     width: 40vw;
 }
 
@@ -218,7 +223,13 @@ input::-webkit-inner-spin-button {
     padding-top: 10px;
 }
 
-.result-title {}
+.pic-leg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
 
 .error-message {
     color: red;
