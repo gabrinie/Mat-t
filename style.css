@@ -169,7 +169,7 @@ section {
     color: #58585a;
 }
 
-iframe {
+.iframe-container iframe {
     border-radius: 12px;
     width: 70vw;
     height: 80vh;
