@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,91 +13,82 @@
 
     <link rel="icon" type="image/x-icon" href="./assets/astronaut.svg">
 </head>
+
 <body>
     <nav class="main-header">
-            <a href="#inicio" class="logo">
-                <img src="./assets/icn-spacex.svg" alt="icon-space"/> 
-                <span>MATH ROCKETS</span>
-            </a>
-            <div class="right-options">
-                <a href="#grupo">O Grupo</a>
-                <a href="#funcao">A Função</a>
-                <a href="#calcular">Calcular</a>
-                </div>
-            </div>
-        </nav>
+        <a href="#inicio" class="logo">
+            <img src="./assets/icn-spacex.svg" alt="icon-space" />
+            <span>MATH ROCKETS</span>
+        </a>
+        <div class="right-options">
+            <a href="#grupo">O Grupo</a>
+            <a href="#funcao">A Função</a>
+            <a href="#calcular">Calcular</a>
+        </div>
+        </div>
+    </nav>
 
     <section class="main" id="inicio">
         <div class="main-right">
             <span> Descubra onde seus voos alcançam</span>
             <a class="sub-title" href="#calcular"> Calcular Altura <i class='bx bx-right-arrow-alt'></i></a>
-        </div> 
-    </section>    
+        </div>
+    </section>
 
-<section id="grupo">
+    <section id="grupo">
         <div class="member-card planet1">
-          <img src="./assets/planet-blue.svg" alt="planet-blue">
-          <span>João Lucas</span>
+            <img src="./assets/planet-blue.svg" alt="planet-blue">
+            <span>João Lucas</span>
         </div>
         <div class="member-card planet2">
-          <img src="./assets/planet-pink.svg" alt="planet-pink">
-          <span>Maria Gabriela</span>
+            <img src="./assets/planet-pink.svg" alt="planet-pink">
+            <span>Maria Gabriela</span>
         </div>
         <div class="member-card planet3">
-          <img src="./assets/planet-red.svg" alt="planet-red">
-          <span>Maysson Ferro</span>
+            <img src="./assets/planet-red.svg" alt="planet-red">
+            <span>Maysson Ferro</span>
         </div>
         <div class="member-card planet4">
-          <img src="./assets/planet-yellow.svg" alt="planet-yellow">
-          <span>Samara Venâncio</span>
+            <img src="./assets/planet-yellow.svg" alt="planet-yellow">
+            <span>Samara Venâncio</span>
         </div>
         <div class="member-card planet5">
-          <img src="./assets/planet-green.svg" alt="planet-green">
-          <span>Stefani Rodrigues</span>
-      </div>
-    
-</section>
-<section id="funcao">
-    <div class="fun-left">
-        <h1>A FUNÇÃO QUADRÁTICA</h1>
-        <span>A Função Quadrática é um cálculo matemático que busca encontrar uma incógnita dentro de uma expressão em forma de um polinômio de grau dois, o que significa que a incógnita está distribuída de forma que aparece elevada ao quadrado.
-        Sua estrutura é determinada pela seguinte expressão: <em>f(x) = ax² + bx + c</em>, onde os termos a, b, e c são os coeficientes do cálculo da função, e por regra o coeficiente a não deve possuir valor igual a zero. 
-        No estudo da álgebra entendemos que o grau de uma função é determinado pelo número de valores (raízes) que essa função pode apresentar, dessa forma a partir dos cálculos utilizando a fórmula de Bhaskara encontramos duas raízes para a função, raízes úteis para a elaboração do gráfico dessa mesma função. 
-        </span>
-        <div class="imagens">
-            <div class="pic-leg">
-                <img src="./assets/1.svg" alt="Fórmula de Bhaskara">
-                <p>Fórmula de Bhaskara</p>
-            </div>
-            <div class="pic-leg">
-                <img  id='graphpic'src="./assets/2.svg" alt="Gráficos">
-                <p>Gráficos da Parábola</p>
-            </div>
-           
+            <img src="./assets/planet-green.svg" alt="planet-green">
+            <span>Stefani Rodrigues</span>
         </div>
-        
-    </div>
+    </section>
 
-</section>
-
-<section id="calcular">
-   <div class="calc-left">
-    <h1> INFORME A DISTÂNCIA PERCORRIDA POR SEU FOGUETE: </h1>
-    <div class="input-section">
-        <div class="input-style"> 
-            <input type="number" id="distance" placeholder="Distância em km">
-        </div>
-            <a class="distance-button" onclick="calculateAndDisplay()">
-                <img src="./assets/rocket-launching.gif" alt="rocket">
+    <section id="funcao">
+        <div class="iframe-container">
+            <iframe title="Slides" loading="lazy" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1d3vf_9M&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1d3vf_9M&#x2F;view?utm_content=DAF1d3vf_9M&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">
+              Função Quadrática
             </a>
-    </div> 
-    <div class="results">
-    </div>
-   </div>
-    <div class="scene">
-    </div>
-</section>
+        </div>
+    </section>
 
-<script src="index.js"></script>
+    <section id="calcular">
+        <div class="calc-left">
+            <h1> INFORME A DISTÂNCIA PERCORRIDA POR SEU FOGUETE: </h1>
+            <div class="input-section">
+                <div class="input-style">
+                    <input type="number" id="distance" placeholder="Distância em km">
+                </div>
+                <a class="distance-button" onclick="calculateAndDisplay()">
+                    <img src="./assets/rocket-launching.gif" alt="rocket">
+                </a>
+            </div>
+            <div class="results">
+            </div>
+        </div>
+        <div class="scene">
+        </div>
+    </section>
+
+
+
+    <script src="index.js"></script>
 </body>
+
 </html>
